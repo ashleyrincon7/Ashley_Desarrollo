@@ -5,6 +5,11 @@ body{
 }
 
 header{
+    background-image: linear-gradient(
+        to right,
+        rgba(74, 165, 211, 0.15), 
+        rgba(243, 195, 237, 0.25)
+    ), url(/multimedia/fondo2.png);
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -25,6 +30,7 @@ nav{
     text-align: center;
     padding: 20px;
     margin: 20px;
+    margin-top: 20px;
     border-radius: 10px;
     box-shadow: 0 6px 20px rgba(0,0,0,0.08);
 }
